@@ -1,0 +1,9 @@
+<resources>
+        <string name="notification_channel_name">Example Channel</string>
+        <string name="notification_channel_description">Canal para ejemplo de notificaciones</string>
+        <string name="notification_title">Notificación de ejemplo</string>
+        <string name="notification_content">Esta es una notificación de ejemplo.</string>
+        <string name="notification_permission_granted">Permiso de notificaciones concedido</string>
+        <string name="notification_permission_denied">Permiso de notificaciones no concedido</string>
+        <string name="app_name">Parcial B</string>
+</resources>

@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Permiso de Ubicación" />
+
+    <TextView
+        android:id="@+id/location_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado de la ubicación"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btn_go_to_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir al Mapa"
+        android:enabled="false"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Permiso de Multimedia" />
+
+    <TextView
+        android:id="@+id/storage_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado del permiso de multimedia"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btn_go_to_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a Galería"
+        android:enabled="false"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Permiso de Notificaciones" />
+
+    <TextView
+        android:id="@+id/notification_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado del permiso de notificaciones"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btn_send_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar Notificación"
+        android:enabled="false"
+        android:visibility="gone" />
+
+</LinearLayout>
+

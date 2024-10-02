@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+    <color name="colorPrimary">#6200EE</color> <!-- Color principal -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Color oscuro principal -->
+    <color name="colorAccent">#03DAC5</color> <!-- Color de acento -->
+    <color name="teal_700">#00796B</color> <!-- Color teal oscuro -->
+    <color name="teal_200">#03DAC5</color> <!-- Define el color teal claro -->
+    <color name="white">#FFFFFF</color> <!-- Color blanco -->
+    <color name="lightGray">#F5F5F5</color> <!-- Color gris claro -->
+    <color name="darkGray">#212121</color> <!-- Color gris oscuro -->
+    <color name="purple_500">#6200EE</color> <!-- Color púrpura -->
+    </resources>
+
